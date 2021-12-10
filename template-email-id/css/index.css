@@ -1,0 +1,108 @@
+.wrapper{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #424242;
+    max-width: 560px;
+    background-color: #FEFEFE;
+    line-height: 19px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border-bottom: 4px solid #323C9F;
+}
+.wrapper header{
+    min-width: 100%;
+    min-height: 110px;
+    background-image: url('../Images/Bg-header-mister-aladin.png'), linear-gradient(267.88deg, #323C9F -16.66%, #0069FF 98.13%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.wrapper .header-title .tagline{
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper .header-title .brand{
+    text-align: center;
+    color: white;
+}
+
+.wrapper .content{
+    padding: 3% 4%;
+}
+
+.wrapper .tagline{
+    margin-bottom: 26px;
+}
+
+.wrapper .tagline .dear{
+    margin-bottom:8px;
+}
+
+.wrapper .riview-star {
+    padding: 3% 4%;
+    border: 1px solid #323C9F;
+    border-radius: 8px;
+    background-color: #EEF5FF;
+}
+
+.wrapper .riview-star .title{
+    text-align: center;
+}
+
+.wrapper .riview-star .wrapper-star li{
+    padding: 10px 8px;
+}
+
+.wrapper .riview-star ul{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.wrapper .signature{
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+/* star indicator color */
+
+.glyphicon-star{
+    font-size: 20px;
+}
+
+.glyphicon-star.full {
+    color: gold;
+}
+
+.glyphicon-star.half::after {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 0;
+    color: gold;
+    content: '\e006';
+    clip-path: inset(0 50% 0 0 );
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper .header-title .tagline{
+        text-align: center;
+        color: white;
+        padding-top: 3%;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .glyphicon-star{
+        font-size: 16px;
+    }   
+}
