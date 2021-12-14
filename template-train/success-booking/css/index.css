@@ -5,8 +5,10 @@
     max-width: 782px;
     line-height: 19px;
     padding: 2% 5%;
+    font-size: 16px;
 }
 
+/* header */
 header .header-email{
     display: flex;
     justify-content: space-between;
@@ -39,12 +41,72 @@ header .header-email .id-header .id-booking{
     font-weight: 700;
 }
 
-
+/* content */
 .content{
-    padding: 2% 4% 3% 4%;
+    padding: 3% 4% 3% 4%;
     text-align: left;
+    position: relative;
+}
+.content table{
+    width: 100%;
+}
+.content .content-summary{
+    border-bottom: #CECECE 1px solid;
 }
 
+.content .content-summary p{
+    margin-bottom: 16px;
+}
+
+
+.content .content-detail{
+    margin:24px 0px;
+    font-weight: 700;
+}
+
+.content .content-detail h2{
+    font-size: 20px;
+    color: #213E7A;
+    margin-bottom: 20px;
+}
+.content .content-detail table{
+    font-weight: 700;
+}
+
+.content .content-detail .header-table{
+    margin-bottom: 16px;
+    font-size: 12px;
+} 
+
+.content .content-detail .content-table{
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #213E7A;
+
+}
+
+.content .content-journey .header-table th {
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: #CECECE 1px solid;
+    border-top: #CECECE 1px solid;
+    margin: 8px 0px;
+}
+
+.content .content-journey .journey-style span{
+    display: block;
+    margin-top: 2px;
+}
+
+.content .content-journey .journey-style .time{
+    font-size: 11px;
+    font-weight: 700;
+}
+.content .content-journey .journey-style .date{
+    font-size: 10px;
+}
+
+/* footer */
 footer{
     background-color: #213E7A;
     padding: 2% 9%;
