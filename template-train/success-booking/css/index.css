@@ -82,7 +82,33 @@ header .header-email .id-header .id-booking{
     margin-bottom: 12px;
     font-size: 14px;
     color: #213E7A;
+}
 
+.content .content-journey .subtotal{
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content .content-journey .last-table{
+    padding-left: 16px;
+}
+
+.content .content-journey .subtotal td{
+    padding-top: 40px;
+}
+
+.content .content-journey .subtotal .description{
+    text-align: end;
+}
+.content .content-journey .subtotal .description span{
+    display: block;
+}
+
+
+.content .content-journey .body-journey td{
+    padding-top: 16px;
+    align-items: center;
 }
 
 .content .content-journey .header-table th {
@@ -98,12 +124,32 @@ header .header-email .id-header .id-booking{
     margin-top: 2px;
 }
 
+.content .content-journey .journey-style img{
+    max-width: 64px;
+}
+
 .content .content-journey .journey-style .time{
     font-size: 11px;
     font-weight: 700;
 }
+
 .content .content-journey .journey-style .date{
     font-size: 10px;
+}
+
+.content .content-journey .journey-style .city{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content .content-journey .journey-style .station{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.content .content-journey .price{
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* footer */

@@ -51,6 +51,7 @@
     border: 1px solid #323C9F;
     border-radius: 8px;
     background-color: #EEF5FF;
+    cursor: pointer;
 }
 
 .wrapper .riview-star .title{
@@ -74,24 +75,10 @@
 
 /* star indicator color */
 
-.glyphicon-star{
-    font-size: 20px;
+.wrapper .wrapper-star img{
+    width: 20px;
+    height: 20px;
 }
-
-.glyphicon-star.full {
-    color: gold;
-}
-
-.glyphicon-star.half::after {
-    position: absolute;
-    z-index: 8;
-    top: 0;
-    left: 0;
-    color: gold;
-    content: '\e006';
-    clip-path: inset(0 50% 0 0 );
-}
-
 @media screen and (max-width: 480px) {
     .wrapper .header-title .tagline{
         text-align: center;
@@ -102,7 +89,8 @@
         line-height: 24px;
     }
 
-    .glyphicon-star{
-        font-size: 16px;
+    .wrapper .wrapper-star img{
+        width: 16px;
+        height: 16px;
     }   
 }
