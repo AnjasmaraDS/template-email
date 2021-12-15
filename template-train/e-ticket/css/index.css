@@ -1,10 +1,16 @@
 .wrapper{
-    font-family: "Roboto", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 400;
     color: #1B1B1B;
     max-width: 596px;
     line-height: 19px;
     padding: 2% 5%;
+    font-size: 8px;
+}
+
+
+.line-height-middle{
+    line-height: 9px;
 }
 
 header{
@@ -39,10 +45,77 @@ header .header-email .id-header img{
     height: 40px;
 }
 
-.content{
+.content {
     padding: 2% 4% 3% 4%;
     text-align: left;
 }
+
+.content table{
+    min-width: 100%;
+}
+.content .departure {
+    border-top: solid 2px #DDDDDD;
+    border-bottom: solid 2px #DDDDDD;
+}
+
+.content .body-journey td{
+    vertical-align: middle;
+    margin: auto;
+    padding: auto;
+}
+
+.content .body-journey td:first-child span{
+    display: block;
+}
+
+.content .body-journey .badges ul{
+    display: flex;
+    text-align: start;
+    padding: auto;
+}
+
+.content .body-journey .badges ul li{
+    padding-right: 4px;
+}
+
+.content .body-journey .barcode span{
+    font-size: 7px;
+}
+.content .body-journey .barcode h4{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.content .body-journey .barcode span img{
+    max-width: 150px;
+}
+
+.content .body-journey .place span{
+    display: block;
+}
+
+.content .reminder{
+    border-top: solid 2px #DDDDDD;
+    border-bottom: solid 2px #DDDDDD;
+}
+
+.content .reminder td div{
+    display: inline;
+    min-height: 100%;
+}
+
+.content .reminder td div img{
+    float: left;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 
 footer{
     background-color: #213E7A;
