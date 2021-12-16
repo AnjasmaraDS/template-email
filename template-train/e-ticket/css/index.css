@@ -100,6 +100,51 @@ header .header-email .id-header img{
     display: block;
 }
 
+/* timeline */
+.content .body-journey .timeline{
+    position: relative;
+}
+
+.content .body-journey .timeline .body-timeline::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #929292;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    margin: 16px 0px;
+    z-index: 1;
+}
+.content .body-journey .timeline .node::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50% ;
+    margin-left: -5px;
+    margin-top: calc(10*0)px ;
+    background-color: white;
+    border: 1px solid #929292;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.content .body-journey .timeline .node.last::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50% ;
+    margin-left: -5px;
+    background-color: white;
+    border: 1px solid #929292;
+    top: calc(15px + (40px *1));
+    border-radius: 50%;
+    z-index: 2;
+}
+
 .content .reminder{
     border-top: solid 2px #DDDDDD;
     border-bottom: solid 2px #DDDDDD;

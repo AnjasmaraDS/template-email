@@ -2,10 +2,18 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #1B1B1B;
-    max-width: 782px;
+    max-width: 790px;
     line-height: 19px;
-    padding: 2% 5%;
+    padding: 2% 2%;
     font-size: 16px;
+}
+
+.left-content{
+    padding-left: 8px;
+}
+
+.content-none{
+    width: 8px;
 }
 
 /* header */
@@ -89,6 +97,17 @@ header .header-email .id-header .id-booking{
     font-weight: 700;
 }
 
+.content .content-journey .header-table th{
+    padding: 6px 0px;
+}
+
+.content .content-journey .body-journey.badges td{
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 11px;
+}
+
 .content .content-journey .last-table{
     padding-left: 16px;
 }
@@ -114,6 +133,55 @@ header .header-email .id-header .id-booking{
 .content .content-journey .body-journey td{
     padding-top: 16px;
     align-items: center;
+    padding-left: 6px !important;
+}
+
+/* timeline */
+.content .content-journey .body-journey .timeline{
+    position: relative;
+    padding: 8px;
+}
+.content .content-journey .body-journey .body-timeline::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #929292;
+    bottom: 0;
+    top: 30px;
+    left: 50%;
+    margin-left: -3px;
+    margin: 12px 0px;
+    z-index: 1;
+    vertical-align: center;
+}
+
+.content .content-journey .body-journey .body-timeline .node::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50% ;
+    margin-left: -5px;
+    margin-top: calc(10*0)px ;
+    background-color: white;
+    border: 1px solid #929292;
+    top: 42px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.content .content-journey .body-journey .body-timeline .node.last::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50% ;
+    margin-left: -5px;
+    background-color:#F7951C;
+    border: 1px solid #929292;
+    top: calc(46px + (40px *1));
+    border-radius: 50%;
+    z-index: 2;
 }
 
 .content .content-journey .header-table th {
@@ -122,6 +190,14 @@ header .header-email .id-header .id-booking{
     border-bottom: #CECECE 1px solid;
     border-top: #CECECE 1px solid;
     margin: 8px 0px;
+}
+
+.content .content-journey .journey-style {
+    line-height: 12px;
+}
+
+.content .content-journey .journey-style:last-child {
+    padding-left: 0px;
 }
 
 .content .content-journey .journey-style span{
@@ -202,27 +278,32 @@ header .header-email .id-header .id-booking{
 
 /* footer */
 footer{
+    min-width:100% ;
     background-color: #213E7A;
-    padding: 2% 9%;
+    padding: 2% 4%;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 footer ul{
     display: flex;
-}
-
-footer ul {
     justify-content: space-between;
 }
 
 footer ul li{
     display: flex;
     align-items: center;
+    padding-left: 8px;
+}
+
+footer ul li:last-child{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
 }
 
 footer ul span img{
-    margin-right: 8px;
+    margin-right: 6px;
     display: flex;
     align-items: center;
     width: auto;
