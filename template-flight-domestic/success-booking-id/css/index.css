@@ -2,11 +2,12 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #1B1B1B;
-    max-width: 782px;
+    max-width: 790px;
     line-height: 19px;
-    padding: 2% 5%;
+    padding: 2% 2%;
+    font-size: 16px;
 }
-
+/* header */
 header .header-email{
     display: flex;
     justify-content: space-between;
@@ -39,34 +40,40 @@ header .header-email .id-header .id-booking{
     font-weight: 700;
 }
 
-
+/* content */
 .content{
     padding: 2% 4% 3% 4%;
     text-align: left;
 }
 
+/* footer */
 footer{
+    min-width:100% ;
     background-color: #213E7A;
-    padding: 2% 9%;
+    padding: 2% 4%;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 footer ul{
     display: flex;
-}
-
-footer ul {
     justify-content: space-between;
 }
 
 footer ul li{
     display: flex;
     align-items: center;
+    padding-left: 8px;
+}
+
+footer ul li:last-child{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
 }
 
 footer ul span img{
-    margin-right: 8px;
+    margin-right: 6px;
     display: flex;
     align-items: center;
     width: auto;
