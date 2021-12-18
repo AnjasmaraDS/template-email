@@ -13,7 +13,7 @@
 .wrapper header{
     min-width: 100%;
     min-height: 110px;
-    background-image: url('../Images/Bg-header-mister-aladin.png'), linear-gradient(267.88deg, #323C9F -16.66%, #0069FF 98.13%);
+    background-image: url('../Images/Bg-header-mister-aladin.png'), linear-gradient(267.88deg, #0069FF -16.66%, #323C9F 98.13%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -76,8 +76,8 @@
 /* star indicator color */
 
 .wrapper .wrapper-star img{
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
 }
 @media screen and (max-width: 480px) {
     .wrapper .header-title .tagline{
@@ -90,7 +90,7 @@
     }
 
     .wrapper .wrapper-star img{
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
     }   
 }
