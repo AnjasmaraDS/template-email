@@ -40,7 +40,7 @@ header .header-email .id-header .tagline-id{
     font-size: 18px;
     text-align: end;
     font-weight: 700;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 header .header-email .id-header .id-booking{
     color:#213E7A;
@@ -55,9 +55,7 @@ header .header-email .id-header .id-booking{
     text-align: left;
     position: relative;
 }
-.content table{
-    width: 100%;
-}
+
 .content .content-summary{
     border-bottom: #CECECE 1px solid;
 }
@@ -66,6 +64,9 @@ header .header-email .id-header .id-booking{
     margin-bottom: 16px;
 }
 
+.content table{
+    width: 100%;
+}
 
 .content .content-detail{
     margin:24px 0px;
@@ -92,21 +93,10 @@ header .header-email .id-header .id-booking{
     color: #213E7A;
 }
 
-.content .content-journey .subtotal{
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .content .content-journey .header-table th{
     padding: 6px 0px;
 }
 
-.content .content-journey .body-journey.badges td{
-    align-items: center;
-    vertical-align: middle;
-    font-weight: 700;
-    font-size: 11px;
-}
 
 .content .content-journey .last-table{
     padding-left: 16px;
@@ -117,18 +107,12 @@ header .header-email .id-header .id-booking{
     justify-content: space-between;
 }
 
-.content .content-journey .subtotal td{
-    padding-top: 40px;
-    padding-bottom: 16px;
+.content .content-journey .body-journey.badges td{
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 11px;
 }
-
-.content .content-journey .subtotal .description{
-    text-align: end;
-}
-.content .content-journey .subtotal .description span{
-    display: block;
-}
-
 
 .content .content-journey .body-journey td{
     padding-top: 16px;
@@ -152,7 +136,7 @@ header .header-email .id-header .id-booking{
     margin-left: -3px;
     margin: 12px 0px;
     z-index: 1;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .content .content-journey .body-journey .body-timeline .node::after{
@@ -162,7 +146,6 @@ header .header-email .id-header .id-booking{
     height: 10px;
     left: 50% ;
     margin-left: -5px;
-    margin-top: calc(10*0)px ;
     background-color: white;
     border: 1px solid #929292;
     top: 42px;
@@ -231,6 +214,23 @@ header .header-email .id-header .id-booking{
 .content .content-journey .price{
     font-size: 16px;
     font-weight: 700;
+}
+
+.content .content-journey .subtotal{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content .content-journey .subtotal td{
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.content .content-journey .subtotal .description{
+    text-align: end;
+}
+.content .content-journey .subtotal .description span{
+    display: block;
 }
 
 .content .content-journey .total td{
