@@ -7,6 +7,16 @@
     padding: 2% 2%;
     font-size: 16px;
 }
+
+b.emphasis{
+    color: #213E7A;
+    font-weight: 700;
+}
+
+.content-none{
+    width: 8px;
+}
+
 /* header */
 header .header-email{
     display: flex;
@@ -31,7 +41,7 @@ header .header-email .id-header .tagline-id{
     font-size: 18px;
     text-align: end;
     font-weight: 700;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 header .header-email .id-header .id-booking{
     color:#213E7A;
@@ -44,6 +54,247 @@ header .header-email .id-header .id-booking{
 .content{
     padding: 2% 4% 3% 4%;
     text-align: left;
+}
+
+.content .content-summary{
+    border-bottom: #CECECE 1px solid;
+}
+
+.content .content-summary p{
+    margin-bottom: 16px;
+}
+
+.content table{
+    width: 100%;
+}
+
+.content .content-detail{
+    margin:24px 0px;
+    font-weight: 700;
+}
+
+.content .content-detail h2{
+    font-size: 20px;
+    color: #213E7A;
+    margin-bottom: 20px;
+}
+.content .content-detail table{
+    font-weight: 700;
+}
+
+.content .content-detail .header-table{
+    margin-bottom: 16px;
+    font-size: 12px;
+} 
+
+.content .content-detail .content-table{
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #213E7A;
+}
+
+.content .content-journey .header-table th{
+    padding: 8px 0px;
+    text-align: left;
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.content .content-journey .body-journey{
+    font-size: 10px;
+}
+
+.content .content-journey .body-journey td{
+    padding-top: 16px;
+    align-items: center;
+    padding-left: 6px !important;
+    vertical-align: middle;
+}
+
+.content .content-journey .body-journey .departure.journey-style{
+    vertical-align: top !important;
+}
+
+.content .content-journey .body-journey .departure.journey-style span{
+    display: block;
+    font-weight: 700;
+}
+
+.content .content-journey .body-journey .departure.journey-style span.date{ 
+    font-weight: 700;
+    color: #1B1B1B;
+    font-size: 11px;
+}
+
+.content .content-journey .body-journey .departure  span.booking-code{
+    font-weight: 400;
+    color: #797979;
+
+} 
+
+.content .content-journey .body-journey .departure span.code{
+    font-size: 700;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.content .content-journey .journey-style {
+    line-height: 12px;
+}
+
+.content .content-journey .journey-style:last-child {
+    padding-left: 0px;
+}
+
+.content .content-journey .journey-style span{
+    display: block;
+    margin-top: 2px;
+}
+
+.content .content-journey .journey-style img{
+    max-width: 64px;
+}
+
+.content .content-journey .journey-style .time{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.content .content-journey .journey-style .date{
+    font-size: 10px;
+    color: #797979;
+}
+
+.content .content-journey .journey-style .city{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content .content-journey .journey-style .station{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.content .content-journey .journey-style.info-airline span{
+    text-align: center;
+}
+
+.content .content-journey .journey-style.info-airline .weight{
+    color: #213E7A;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+/* timeline */
+.content .content-journey .body-journey .timeline{
+    position: relative;
+    padding: 8px;
+}
+.content .content-journey .body-journey .body-timeline::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #929292;
+    bottom: 0;
+    top: 26px;
+    left: 50%;
+    margin-left: -3px !important;
+    margin: 8px 0px;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+.content .content-journey .body-journey .body-timeline .node::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    margin-left: -7px;
+    background-color: white;
+    border: 1px solid #929292;
+    top: 26px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.content .content-journey .body-journey .body-timeline .node.last::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50% ;
+    margin-left: -7px;
+    background-color:#F7951C;
+    border: 1px solid #929292;
+    top: calc(26px + (48px *1));
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.content .content-journey .body-journey.badges{
+    border-bottom: solid 1px #CECECE;
+}
+
+.content .content-journey .body-journey.badges td{
+    align-items: center;
+    vertical-align: middle;
+    padding-bottom: 16px;
+}
+
+
+.content .content-journey .subtotal td{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.content .content-journey .total td{
+    background-color: #213E7A;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+.content .content-info-payment{
+    margin-top: 16px;
+}
+
+.content .content-info-payment h2{
+    font-size: 14px;
+    color: #213E7A;
+    font-weight: 700;
+    margin-top: 24px;     
+}
+
+.content .content-info-payment .head span{
+    font-size: 12px;
+    display: block;
+}
+
+.content .content-info-payment .head span:first-child{
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 24px;
+}
+.content .content-info-payment .head span:last-child{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.content .content-info-payment .signature {
+    margin-top: 40px;
+    margin-bottom: 34px;
+}
+
+.content .content-info-payment .signature span:last-child{
+    font-weight: 700;
 }
 
 /* footer */
