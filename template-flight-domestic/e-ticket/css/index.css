@@ -73,11 +73,28 @@ header .header-email .id-header img{
     min-width: 100%;
 }
 
+.content .passengers .head-info-passengers .name{
+    width: 158px;
+}
+
+.content .passengers .head-info-passengers .ticket{
+    width: 121px;
+}
+
+.content .passengers .head-info-passengers .bagge{
+    width: 75px;
+}
+
 .content .passengers .detail-passengers{
     font-weight: 700;
     font-size: 9px;
     color: #203D79;
 }
+
+.content .passengers .detail-passengers td{
+    padding: 4px;
+}
+
 
 .content .passengers .detail-passengers:last-child{
     color: #203D79;
@@ -122,10 +139,13 @@ header .header-email .id-header img{
     text-align: left;
 }
 
-
 .content .body-journey .departure td span {
     display: block;
     line-height: 10px;
+}
+
+.content .body-journey .departure .space-place{
+    padding-top: 26px;
 }
 
 .content .body-journey .departure .desc {
@@ -144,6 +164,12 @@ header .header-email .id-header img{
 .content .body-journey .departure .airline-info{
     vertical-align: middle;
 }
+
+.content .body-journey .departure .flight-icon{
+    position: relative;
+    top: 10px;
+}
+
 
 .content .body-journey .departure img.icon-airline{
     width: 62px;
@@ -197,19 +223,15 @@ header .header-email .id-header img{
     padding-left: 30px;
 }
 
-.content .notice ul li{
-    margin-bottom: 13px;
+.content .notice ul li,
+.content .cancellation-policy ul li{
+    margin-bottom: 6px;
 }
-
 
 .content .cancellation-policy{
     margin-top: 22px;
 }
 
-.content .cancellation-policy ul li{
-    margin-bottom: 13px;
-    
-}
 
 
 footer{
@@ -217,7 +239,8 @@ footer{
     padding: 2% 9%;
     color: white;
     font-size: 9px;
-    margin: 0% 4%;
+    margin-top: 6%;
+    
 }
 
 footer ul{
