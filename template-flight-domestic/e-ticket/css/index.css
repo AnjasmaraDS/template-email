@@ -89,11 +89,12 @@ header .header-email .id-header img{
     margin-bottom: 22px;
 }
 
-.content .body-journey .departure-info td span{
-    display: block;
+.content .body-journey .departure-info{
+    line-height: 10px;
 }
 
 .content .body-journey .departure-info td span{
+    display: block;
     font-size: 9px;
     color: #203D79
 }
@@ -116,6 +117,12 @@ header .header-email .id-header img{
     font-weight: 700;
 }
 
+.content .body-journey .departure-info td.booking-code{
+    justify-content: start;
+    text-align: left;
+}
+
+
 .content .body-journey .departure td span {
     display: block;
     line-height: 10px;
@@ -132,6 +139,10 @@ header .header-email .id-header img{
     font-weight: 700;
     font-size: 8px;
     color: #203D79;
+}
+
+.content .body-journey .departure .airline-info{
+    vertical-align: middle;
 }
 
 .content .body-journey .departure img.icon-airline{
@@ -161,6 +172,10 @@ header .header-email .id-header img{
 
 .content .body-journey .departure td li img{
     margin-right: 4px;
+}
+
+.content .body-journey .departure.time-departure td{
+    margin-top: 6px;
 }
 
 .content .body-journey .departure.badges td{
