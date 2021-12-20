@@ -17,6 +17,11 @@ b.emphasis{
     width: 8px;
 }
 
+.content .content-journey .header-table.another-journey{
+    margin-top: 44px;
+    position: relative;
+}
+
 /* header */
 header .header-email{
     display: flex;
@@ -100,6 +105,11 @@ header .header-email .id-header .id-booking{
     margin-left: 16px;
 }
 
+.content .content-journey .body-journey{
+    font-size: 10px;
+    position: relative;
+}
+
 .content .content-journey .header-table th{
     padding: 8px 0px;
     text-align: left;
@@ -107,12 +117,8 @@ header .header-email .id-header .id-booking{
     border-bottom: 1px solid #CECECE;
     font-size: 14px;
     font-weight: 700;
+    padding-right: 12px !important;
 }
-
-.content .content-journey .body-journey{
-    font-size: 10px;
-}
-
 
 element.style {
     text-align: center;
@@ -125,9 +131,6 @@ element.style {
     padding: 0px 48px;
 } 
 
-.content .content-journey .header-table th{
-    padding-right: 12px !important;
-}
 .content .content-journey .body-journey td:last-child{
     padding-left: 0px;
     vertical-align: middle;
@@ -169,7 +172,7 @@ element.style {
 
 .content .content-journey .body-journey .departure span.code{
     font-size: 700;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 6px;
     color: #213E7A;
 }
@@ -273,10 +276,24 @@ element.style {
     border-bottom: solid 1px #CECECE;
 }
 
+.content .content-journey .body-journey.badges.none-border{
+    border-bottom: none;
+
+}
+
+
 .content .content-journey .body-journey.badges td{
     align-items: center;
     vertical-align: middle;
     padding-bottom: 16px;
+}
+
+.content .content-journey .body-journey.badges.none-border td{
+    padding-bottom: 46px;
+}
+
+.content .content-journey .body-journey.badges.multi-journey td{
+    padding-bottom: 50px;
 }
 
 
