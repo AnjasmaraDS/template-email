@@ -1,17 +1,18 @@
 .wrapper{
-    font-family: "Roboto", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 400;
-    color: #1B1B1B;
+    color: #313131;
     max-width: 596px;
     line-height: 19px;
     padding: 2% 5%;
+    font-size: 8px;
 }
 
-header{
-    padding-bottom: 8px;
-    border-bottom: #CECECE 1px solid;
+b.emphasis{
+    font-weight: 700;
+    color: #313131;
+    font-size: 9px;   
 }
-
 
 header .header-email{
     display: flex;
@@ -19,15 +20,15 @@ header .header-email{
     padding-bottom: 40px;
     align-items: center;
     position: relative;
-    padding: 5% 4%;
+    padding: 4% 0% 0% 0%;
 }
 
-header .header-title{
+header .id-header{
     text-align: start;
     font-size: 12px;
     font-weight: 700;
     font-size: 12px;
-    color:#223F77;
+    color:#203D79;
 }
 
 header .header-email .logo-header{
@@ -40,16 +41,202 @@ header .header-email .id-header img{
 }
 
 .content{
-    padding: 2% 4% 3% 4%;
+    padding: 1% 0% 1% 0%;
     text-align: left;
 }
+
+.content table{
+    min-width: 100%;
+}
+
+.content .passengers .head-info-passengers{
+    position: relative;
+}
+
+.content .passengers .head-info-passengers th{
+    background-color: #EFEFF0;
+    border-right: 2px solid white;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 9px;
+    padding: 4px;
+}
+
+.content .passengers .head-info-passengers th::before{
+    content: ' ';
+    display: block;
+    border-top: 2px solid #C24638;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+
+.content .passengers .head-info-passengers .name{
+    width: 158px;
+}
+
+.content .passengers .head-info-passengers .ticket{
+    width: 121px;
+}
+
+.content .passengers .head-info-passengers .bagge{
+    width: 75px;
+}
+
+.content .passengers .detail-passengers{
+    font-weight: 700;
+    font-size: 9px;
+    color: #203D79;
+}
+
+.content .passengers .detail-passengers td{
+    padding: 4px;
+}
+
+
+.content .passengers .detail-passengers:last-child{
+    color: #203D79;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.content .body-journey{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.content .body-journey .departure-info{
+    line-height: 10px;
+}
+
+.content .body-journey .departure-info td span{
+    display: block;
+    font-size: 9px;
+    color: #203D79
+}
+
+.content .body-journey .departure-info td span:first-child{
+    font-weight: 700;
+}
+
+.content .body-journey .departure-info td:last-child{
+    text-align: end;
+}
+
+.content .body-journey .departure-info td:last-child span{
+    color: #B0B1B1;
+}
+
+.content .body-journey .departure-info td:last-child span.code{
+    color: #203D79;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content .body-journey .departure-info td.booking-code{
+    justify-content: start;
+    text-align: left;
+}
+
+.content .body-journey .departure td span {
+    display: block;
+    line-height: 10px;
+}
+
+.content .body-journey .departure .space-place{
+    padding-top: 26px;
+}
+
+.content .body-journey .departure .desc {
+    font-weight: 700;
+    font-size: 9px;
+    color: #203D79;
+    margin-bottom: 2px;
+}
+
+.content .body-journey .departure .place {
+    font-weight: 700;
+    font-size: 8px;
+    color: #203D79;
+}
+
+.content .body-journey .departure .flight-icon{
+    position: relative;
+    top: 10px;
+}
+
+
+.content .body-journey .departure img.icon-airline{
+    width: 62px;
+    height: 62px;
+}
+
+.content .body-journey .departure .desc-departure,
+.content .body-journey .departure .arrival-departure{
+    color: #203D79;
+    font-size: 9px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.content .body-journey .departure .desc-time,
+.content .body-journey .departure .arrival-time{
+    color: #203D79;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.content .body-journey .departure td li{
+    display: inline;
+    margin-right: 4px;
+}
+
+.content .body-journey .departure td li img{
+    margin-right: 4px;
+}
+
+.content .body-journey .departure.time-departure td{
+    margin-top: 6px;
+}
+
+.content .body-journey .departure.badges td{
+    padding: 8px 0px;
+    border-bottom: 1px solid #DDDDDD ;
+}
+
+.content .notice {
+    position: relative;
+}
+
+.content .notice h2 img,
+.content .cancellation-policy h2 img{
+    max-width: 104px ;
+}
+
+.content .notice ul,
+.content .cancellation-policy ul{
+    padding-left: 30px;
+}
+
+.content .notice ul li,
+.content .cancellation-policy ul li{
+    margin-bottom: 6px;
+}
+
+.content .cancellation-policy{
+    margin-top: 22px;
+}
+
+
 
 footer{
     background-color: #213E7A;
     padding: 2% 9%;
     color: white;
     font-size: 9px;
-    margin: 0% 4%;
+    margin-top: 6%;
+
 }
 
 footer ul{
