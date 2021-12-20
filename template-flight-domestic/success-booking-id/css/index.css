@@ -21,7 +21,7 @@ b.emphasis{
 header .header-email{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 24px;
+    padding-bottom: 14px;
     border-bottom: #CECECE 1px solid;
     align-items: center;
     position: relative;
@@ -58,6 +58,7 @@ header .header-email .id-header .id-booking{
 
 .content .content-summary{
     border-bottom: #CECECE 1px solid;
+    padding: 32px 0px
 }
 
 .content .content-summary p{
@@ -69,7 +70,7 @@ header .header-email .id-header .id-booking{
 }
 
 .content .content-detail{
-    margin:24px 0px;
+    margin:28px 0px;
     font-weight: 700;
 }
 
@@ -106,10 +107,36 @@ header .header-email .id-header .id-booking{
     font-size: 10px;
 }
 
+
+element.style {
+    text-align: center;
+}
+.content .content-journey .body-journey .timeline {
+    position: relative;
+    padding: 8px;
+}
+.content .content-journey .body-journey td.space-time{
+    padding: 0px 48px;
+} 
+
+.content .content-journey .header-table th{
+    padding-right: 16px !important;
+}
+.content .content-journey .body-journey td:last-child{
+    padding-left: 0px;
+    vertical-align: middle;
+}
+
+
 .content .content-journey .body-journey td{
     padding-top: 16px;
     align-items: center;
-    padding-left: 6px !important;
+    padding-right: 16px !important;
+    vertical-align: middle;
+}
+
+.content .content-journey .body-journey td:last-child{
+    padding-right: 0px;
     vertical-align: middle;
 }
 
@@ -270,12 +297,13 @@ header .header-email .id-header .id-booking{
     font-size: 14px;
     color: #213E7A;
     font-weight: 700;
-    margin-top: 24px;     
+    margin-top: 18px;     
 }
 
 .content .content-info-payment .head span{
     font-size: 12px;
     display: block;
+    line-height: 14px;
 }
 
 .content .content-info-payment .head span:first-child{
@@ -290,7 +318,7 @@ header .header-email .id-header .id-booking{
 
 .content .content-info-payment .signature {
     margin-top: 40px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
 }
 
 .content .content-info-payment .signature span:last-child{
