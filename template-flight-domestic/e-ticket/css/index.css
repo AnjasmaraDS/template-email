@@ -135,9 +135,30 @@ header .header-email .id-header img{
 }
 
 .content .body-journey .departure-info td.booking-code{
-    justify-content: start;
+    justify-content: center;
     text-align: left;
+    align-items: center;
+    width: 120px;
+    line-height: 14px;
 }
+
+.content .body-journey .departure-info td.booking-code .code{
+    margin-bottom: 10px;
+}
+
+.content .body-journey .departure-info td.booking-code span img{
+    margin-left: -16px;
+}
+
+.content .body-journey .departure-info td.booking-code .code-airline{
+    margin-top: 8px;
+}
+
+.content .body-journey .departure-info td.booking-code .class-airline{
+    margin-top: 2px;
+}
+
+
 
 .content .body-journey .departure td span {
     display: block;
