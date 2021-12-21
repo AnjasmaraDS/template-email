@@ -17,7 +17,15 @@
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+a.font-bold{
+    color:#213E7A;
+}
 
 header{
     padding-bottom: 8px;
@@ -59,6 +67,29 @@ header .header-email .id-header img{
 .content table{
     min-width: 100%;
 }
+
+.content .passengers{
+    font-weight: 700;
+}
+
+.content .passengers.detail-passengers th{
+    padding-right: 18px;
+}
+
+.content .passengers.detail-passengers td{
+    color: #223F77;
+    margin-bottom: 6px;
+    padding-right: 18px;
+}
+
+.content .passengers.detail-passengers td.identity{
+    min-width: 140px;
+}
+
+.content .departure.head-departure{
+    font-weight: 700;
+}
+
 .content .departure {
     border-top: solid 2px #DDDDDD;
     border-bottom: solid 2px #DDDDDD;
@@ -68,6 +99,11 @@ header .header-email .id-header img{
     vertical-align: middle;
     margin: auto;
     padding: auto;
+}
+
+.content .body-journey.line-height-middle.first-table td{
+    padding-top: 16px;
+    position: relative;
 }
 
 .content .body-journey td:first-child span{
@@ -110,11 +146,11 @@ header .header-email .id-header img{
     position: absolute;
     width: 2px;
     background-color: #929292;
-    top: 0;
+    top: 18px;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-    margin: 16px 0px;
+    margin: 18px 0px;
     z-index: 1;
 }
 .content .body-journey .timeline .node::after{
@@ -127,7 +163,7 @@ header .header-email .id-header img{
     margin-top: calc(10*0)px ;
     background-color: white;
     border: 1px solid #929292;
-    top: 15px;
+    top: 35px;
     border-radius: 50%;
     z-index: 2;
 }
@@ -140,14 +176,21 @@ header .header-email .id-header img{
     margin-left: -5px;
     background-color: white;
     border: 1px solid #929292;
-    top: calc(15px + (40px *1));
+    top: calc(35px + (55px *1));
     border-radius: 50%;
     z-index: 2;
 }
 
+.content .body-journey.line-height-middle.first-table td{
+    padding-bottom: 16px;
+    position: relative;
+}
+
+
 .content .reminder{
     border-top: solid 2px #DDDDDD;
     border-bottom: solid 2px #DDDDDD;
+    margin-top: 20px;
 }
 
 .content .reminder td {
@@ -198,11 +241,16 @@ header .header-email .id-header img{
 }
 
 .content .policy {
-    margin-top: 2px;
-    font-weight: 700;
+    margin-top: 6px;
     font-size: 9px;
     line-height: 14px;
 }
+
+.content .policy ol li{
+    list-style-type: number;
+    margin-left: 12px;
+}
+
 
 .content .policy .visit{
     margin-top: 4px;

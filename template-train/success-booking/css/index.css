@@ -123,7 +123,7 @@ header .header-email .id-header .id-booking{
 /* timeline */
 .content .content-journey .body-journey .timeline{
     position: relative;
-    padding: 8px;
+    padding: 14px;
 }
 .content .content-journey .body-journey .body-timeline::after{
     content: '';
